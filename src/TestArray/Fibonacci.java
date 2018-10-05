@@ -1,6 +1,10 @@
 package TestArray;
 import java.util.Scanner;
 
+/**
+ * @author formation
+ *
+ */
 public class Fibonacci 
 {
 	public static void main(String[] args)
@@ -17,5 +21,6 @@ public class Fibonacci
 		}
 		System.out.println("\nLe nombre au rang "+ N + " est " + val3);
 	}
+	
 
 }
