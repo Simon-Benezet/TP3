@@ -23,22 +23,22 @@ public class TestArray2
 				index = i;
 		}
 		System.out.println("index : " + index);
-		System.out.println("\n");
 		//---------------------------------
 		
 		//Doublon
 		int doublon = 0;
 		for(int i = 0; i < array.length; i++)
 		{
-			int val = 0;
-			val = array[i];
 			for(int y = 0; y < array.length; y++)
 			{
-				if(val == array[y])
+				if(array[y] == array[i])
+				{
 					doublon++;
+					//System.out.print(doublon + "ERREUR");
+				}
 			}
 		}
-		System.out.print(doublon + "ERREUR");
+		System.out.print("Doublon : " + doublon + "ERREUR");
 		
 	}
 }

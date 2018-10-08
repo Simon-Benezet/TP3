@@ -7,19 +7,19 @@ public class TestArray1
 		int[] array = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4};
 		
 		//Display from the begin
-		System.out.println("Du premier au dernier");
+		System.out.print("Du premier au dernier : ");
 		for (int i = 0; i < array.length; i++)
 			System.out.print(array[i]+",");
 		System.out.println("\n");
 		//---------------------------------
 		//Display from the end
-		System.out.println("Du dernier au premier");
+		System.out.print("Du dernier au premier : ");
 		for (int i = 16; i >= 0; i--)
 			System.out.print(array[i]+",");
 		System.out.println("\n");
 		//---------------------------------
 		//Display all number higher than 3
-		System.out.println("Tous les nombres supérieurs à 3");
+		System.out.print("Tous les nombres supérieurs à 3 : ");
 		for (int i = 0; i < array.length; i++)
 		{
 			if(array[i]>3)
@@ -28,7 +28,7 @@ public class TestArray1
 		System.out.println("\n");
 		//---------------------------------
 		//Display even integer
-		System.out.println("Tous les nombres entiers");
+		System.out.print("Tous les nombres entiers : ");
 		for (int i = 0; i < array.length; i++)
 		{
 			int res = array[i] % 2;
@@ -38,7 +38,7 @@ public class TestArray1
 		System.out.println("\n");
 		//---------------------------------
 		//Display higher number
-		System.out.println("Le plus grand nombre");
+		System.out.print("Le plus grand nombre : ");
 		for (int i = 0; i < array.length; i++)
 		{
 			int G = 0;
@@ -70,7 +70,7 @@ public class TestArray1
 		
 		//---------------------------------
 		//Display higher number
-		System.out.println("Le plus petit nombre");
+		System.out.print("Le plus petit nombre : ");
 		for (int i = 0; i < 17; i++)
 		{
 			int P = 28;
