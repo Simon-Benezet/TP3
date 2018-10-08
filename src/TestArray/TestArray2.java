@@ -38,7 +38,7 @@ public class TestArray2
 				}
 			}
 		}
-		System.out.print("Doublon : " + doublon + " ERREUR");
+		System.out.print("Doublon : " + doublon + "ERREUR");
 		
 	}
 }
